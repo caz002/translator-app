@@ -4,7 +4,7 @@ function App() {
   return (
     <div className="App">
       <body>
-        <h1>💬 Translatoring and Language Detector API Playground</h1>
+        <h1>💬 Translator and Language Detector API Playground</h1>
         <div class="not-supported-message" hidden>
           Your browser doesn't support the Translator or Language Detector APIs.
         </div>
