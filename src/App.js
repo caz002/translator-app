@@ -1,23 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <body>
+        <h1>💬 Translator and Language Detector API Playground</h1>
+        <div class="not-supported-message" hidden>
+          Your browser doesn't support the Translator or Language Detector APIs.
+        </div>
+        <form>
+          <label for="input">Input:</label>
+          <textarea id="input">Hello, world!</textarea>
+          <p>
+            I'm <span>not sure what language this is</span>.
+          </p>
+
+          <label for="translate">
+            Translate to
+            <select id="translate">
+              <option value="en">English</option>
+              <option value="fr">French</option>
+              <option value="ja">Japanese</option>
+              <option value="pt">Portuguese</option>
+              <option selected value="es">
+                Spanish
+              </option>
+            </select>
+          </label>
+          <button type="submit" class="button-style">
+            Translate
+          </button>
+        </form>
+        <label for="output">Translation:</label>
+        <output id="output"></output>
+      </body>
     </div>
   );
 }
