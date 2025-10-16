@@ -1,31 +1,21 @@
-# Create React App
+# React + TypeScript + Vite
 
-This directory is a brief example of a [Create React App](https://github.com/facebook/create-react-app) site that can be deployed to Vercel with zero configuration.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+While this project uses React, Vite supports many popular JS frameworks. [See all the supported frameworks](https://vitejs.dev/guide/#scaffolding-your-first-vite-project).
 
 ## Deploy Your Own
 
-Deploy your own Create React App project with Vercel.
+Deploy your own Vite project with Vercel.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/create-react-app&template=create-react-app)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/examples/tree/main/framework-boilerplates/vite-react&template=vite-react)
 
-_Live Example: https://create-react-template.vercel.app/_
+_Live Example: https://vite-react-example.vercel.app_
 
-## Available Scripts
+### Deploying From Your Terminal
 
-In the project directory, you can run:
+You can deploy your new Vite project with a single command from your terminal using [Vercel CLI](https://vercel.com/download):
 
-### `npm start`
-
-Runs the app in the development mode. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes. You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode. See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.
-
-It correctly bundles React in production mode and optimizes the build for the best performance. The build is minified and the filenames include the hashes.
+```shell
+$ vercel
+```
